@@ -1,0 +1,19 @@
+{
+  "name": "graphexplorer",
+  "version": "0.0.0",
+  "description": "text-based adventure like moving arounda graph",
+  "main": "src/index.js",
+  "repository": "github.com/holliebaker/graphexplorer",
+  "author": "Hollie Baker <hollieabaker@gmail.com>",
+  "license": "UNLICENSED",
+  "private": false,
+  "scripts": {
+    "build": "parcel build src/index.js -d public",
+    "watch": "parcel src/index.js -d public"
+  },
+  "dependencies": {
+    "parcel-bundler": "^1.12.4",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1"
+  }
+}
